@@ -15,4 +15,7 @@
   - To `enqueue` a new `Task`
   ```elixir
   GenstageDemo2023.enqueue(module, function, arguments)
+
+  # Example:
+  GenstageDemo2023.enqueue(IO, :inspect, ["this will be logged"])
   ``````
